@@ -1,1 +1,2 @@
 # cryptoClustering
+This repo contains the original crypto currency csv file and the jupyter notebook used to do the analysis. The original data was scaled using the StandardScaler from sci-kit learn and clustered using a K means model. Then, the clusters were optimized using the PCA method to reduce the noisiness of the original data and draw out the most important patterns and components. The original data was compared with the PCA data to see how useful PCA is when clustering data using K-means.
